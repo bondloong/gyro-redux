@@ -20,7 +20,7 @@ const ScrollArrow = () =>{
   window.addEventListener('scroll', checkScrollTop)
 
   return (
-        <img src={goUp} className="scrollTop bg-primary border border-info p-1" onClick={scrollTop} style={{height: 50, borderRadius: "25%", display: showScroll ? 'flex' : 'none'}} />
+        <img alt={goUp} src={goUp} className="scrollTop bg-primary border border-info p-1" onClick={scrollTop} style={{height: 50, borderRadius: "25%", display: showScroll ? 'flex' : 'none'}} />
   );
 }
 
